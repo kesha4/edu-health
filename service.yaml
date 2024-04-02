@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: edu-service
+  namespace: edu
 spec: 
   selector:
     env: test
